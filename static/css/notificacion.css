@@ -1,0 +1,43 @@
+/* Custom CSS */
+.modal-content {
+    background-color: #f8f9fa;
+}
+
+.modal-title {
+    color: #343a40;
+}
+
+.modal-body, .modal-footer {
+    border-top: 1px solid #dee2e6;
+}
+
+.modal-footer {
+    justify-content: space-between;
+}
+.btn {
+    font-family: 'Poppins', sans-serif; 
+    padding: 2px 40px; 
+    border:rgb(from color r g b);
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+.btn-secondary {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.btn-secondary:hover {
+    background-color: #874b96b4;
+    border-color: #874b96b4;
+}
+
+.btn-primary {
+    background-color: #070707;
+    border-color: #000000;
+}
+
+.btn-primary:hover {
+    background-color: #874b96b4;
+    border-color: #874b96b4;
+}

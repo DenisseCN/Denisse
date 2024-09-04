@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to top, #fff 10%, rgba(93, 42, 141, 0.4) 90%) no-repeat;
+    color: black;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px; /* Aumenta el valor máximo de ancho */
+    width: 90%; /* Establece un ancho relativo al 90% del contenedor padre */
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 30px 40px;
+    box-shadow: 20px 20px 80px rgb(206, 206, 206);
+    background-color: white;
+    color: black;
+}
+
+.h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: black;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table th,
+.table td {
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+.table tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.table td img {
+    width: 100px;
+    height: auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #495057;
+}
+
+.btn-primary {
+    background-color: #007bff; 
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; 
+}
+
+.btn-danger {
+    background-color: #dc3545; 
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c82333; 
+}

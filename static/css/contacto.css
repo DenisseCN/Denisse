@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  height: 120vh;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to top, #fff 10%, rgba(93, 42, 141, 0.4) 90%) no-repeat;
+  color: black;
+}
+
+.input-field {
+  border-radius: 150px;
+  padding: 1%;
+  display:flex;
+  align-items: center;
+
+  color: black;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-right: 10px;
+}
+
+
+.input-field label {
+  color: #000000;
+  width: 200px; 
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.input-field input,
+.input-field textarea {
+  padding: 1px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #000000;  
+}
+
+
+h2{
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: black;
+  font-style: italic;
+  text-align: center;
+}
+
+.btn.btn-block:hover {
+  background-color: #BE8ECE;
+}
+
+.btn.btn-block {
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  display: block;
+  margin: 0 auto;
+}
+

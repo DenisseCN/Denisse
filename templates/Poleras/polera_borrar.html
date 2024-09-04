@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<body>
+    <div class="container mb-3 mt-3">
+        <form method="POST">
+            {% csrf_token %}
+            <div>
+                <h3>¿Desea eliminar la polera "{{ object.nombre }}"?</h3><br>
+                <button class="btn btn-danger" type="submit">Sí</button>
+                <a class="btn btn-secondary" href="{% url 'polera_list' %}">Cancelar</a>
+            </div>
+        </form>
+    </div>
+</body>
+{% endblock %}

@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div>
+    <h1 class="h1">Gestion de Poleras</h1>
+    <div class="text-center">
+        <a class="btn btn-primary" role="button" href="{% url 'polera_form' %}">Agregar</a>
+        <br>
+        <br>
+    </div>
+
+    {% if not object_list %}
+    <h1>No hay registro de Poleras</h1>
+    <br><br><br><br><br><br><br><br>
+    {% else %}
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Fotografía</th>
+                <th>Nombre</th>
+                <th>Color</th>
+                <th>Precio</th>
+                <th>Stock S</th>
+                <th>Stock M</th>
+                <th>Stock L</th>
+                <th>Stock Talla XL</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for polera in object_list %}
+            <tr>
+                <td><img src="{{ polera.fotografia.url }}" style="width: 100px;" /></td>
+                <td>{{ polera.nombre }}</td>
+                <td>{{ polera.color }}</td>
+                <td>{{ polera.precio }}</td>
+                <td>{{ polera.stock_S }}</td>
+                <td>{{ polera.stock_M }}</td>
+                <td>{{ polera.stock_L }}</td>
+                <td>{{ polera.stock_XL }}</td>
+                <td>
+                    <a class="btn btn-primary" href="{% url 'polera_update' pk=polera.pk %}">Editar</a>
+                    <a class="btn btn-danger" href="{% url 'polera_delete' pk=polera.pk %}">Eliminar</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% endif %}
+</div>
+{% endblock %}

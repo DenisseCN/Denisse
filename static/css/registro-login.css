@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to top, #fff 10%, rgba(93, 42, 141, 0.4) 90%) no-repeat;
+    color: black;
+}
+
+.wrapper {
+    max-width: 500px;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 30px 40px;
+    box-shadow: 20px 20px 80px rgb(206, 206, 206);
+    background-color: white;
+    color: black;
+}
+
+.h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: black;
+    font-style: italic;
+}
+
+.h4 {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.input-field {
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #400485; 
+    color: black;
+}
+
+.input-field input {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    padding: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    background-color: transparent;
+}
+
+.input-field input:focus {
+    outline: none;
+}
+
+.fa-eye-slash.btn {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #7b4ca0;
+}
+
+.option label.text-muted {
+    display: block;
+    cursor: pointer;
+    color: black;
+}
+
+.btn.btn-block {
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn.btn-block:hover {
+    background-color: #BE8ECE;
+}
+
+@media(max-width: 575px) {
+    .wrapper {
+        margin: 10px;
+    }
+}
+
+@media(max-width:424px) {
+    .wrapper {
+        padding: 30px 10px;
+        margin: 5px;
+    }
+
+    .option label.text-muted {
+        font-size: 0.95rem;
+    }
+
+    #forgot {
+        font-size: 0.95rem;
+    }
+}

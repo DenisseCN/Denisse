@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins&display=swap');
+
+body {
+    height: 120vh;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to top, #ffffff8e 10%, rgba(93, 42, 141, 0.4) 90%) no-repeat;
+    text-align: center;
+    font-weight: 700;
+
+  }
+
+.h2 {
+    font-family: 'Kaushan Script', cursive;
+    color: #050505; 
+    text-align: center;
+    margin: 5px 0;
+    font-size: 35px;
+    font-weight: 700;
+
+}   
+
+
+.card {
+    border: none; 
+    border-radius: 10px; 
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+     
+
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    text-align: center; 
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.card-text {
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.formulario-compra {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar elementos */
+}
+
+.formulario-compra select,
+.formulario-compra input[type="number"] {
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 150px; /* Ancho máximo */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center; /* Centrar texto */
+    
+}
+
+
+.formulario-compra button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formulario-compra button:hover {
+    background-color: #874b96b4;
+}
+
+.formulario-compra select:hover {
+    background-color: #e9ecef;
+}
+
+footer.footer {
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Letra blanca */
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer.footer .text-muted {
+    color: #fff; /* Asegurar que el texto dentro del footer también sea blanco */
+    font-weight: 3000; /* Letra más gruesa */
+}
+
+
+

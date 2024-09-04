@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins&display=swap');
+
+.btn-container{ 
+    margin-top: 20px;
+    padding: 10px 20px; 
+    text-align: center; 
+}
+.btn-container .btn-primary {
+    color: #ffffff;
+    background-color:#000000
+}
+
+
+body {
+    height: 120vh;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to top, #ffffff8e 10%, rgba(93, 42, 141, 0.4) 90%) no-repeat;
+    text-align: center;
+  }
+
+h1 {
+    text-align: center; /* Centrar el título */
+    margin-top: 50px; /* Margen superior */
+    font-family: 'Kaushan Script', cursive;
+    color: #050505; 
+    text-align: center;
+}
+
+
+
+.centrar {
+    text-align: center; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: center; /* Centrar el contenido */
+    font-weight: 600; /* Ajustar el peso de la fuente si es necesario */
+    font-size: 20px; /* Ajustar el tamaño de la fuente si es necesario */
+    color: #333;
+
+}
+
+
+.borde_formulario {
+    border: 5px solid #000000; /* Borde sólido con color azul */
+    border-radius: 10px; /* Borde redondeado */
+    padding: 20px; /* Espaciado interno */
+    background-color: rgba(255, 255, 255, 0.623);
+    box-shadow: 1px 1px 3px 20px rgba(0, 0, 0, 0.205);
+}
+
+
+
+
+
+
+
+

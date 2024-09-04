@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* change colours to suit your needs */
+
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+
+mark {
+    background-color: #ff9;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input, select {
+    vertical-align: middle;
+}
+
+/* inicio de estilo de pagina */
+
+#header {
+    background-color: rgb(238, 236, 234);
+    padding: 0.5% 1% 0.5% 1%;
+}
+
+#header img {
+    width: 100%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#footer {
+    padding: 3% 3% 3% 3%;
+}
+
+body {
+    background-size: 100%;
+    line-height: 1;
+    height: 100%;
+}
+
+#logo_serviexpress {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#header .btn {
+    background-color: #213DEE;
+    border-color: #213DEE;
+}
+
+
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    align-items: center;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.inicio {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inicio h1 {
+    font-weight: bold;
+}
+
+.inicio p {
+    line-height: 50%;
+}
+
+.inicio a {
+    display: flex;
+    justify-content: center;
+    background-color: #213DEE;
+    border-color: #213DEE;
+}
+
+.btnid {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: column;
+    width: 20%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.btnid a {
+    background-color: #213DEE;
+    border-color: #213DEE;
+
+}
+.container-botones{
+    justify-content:space-evenly;
+}
+
+.bienvenido {
+    margin-left: 30%;
+}
+
+#jumbotron {
+    display: flex;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.slider {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 300%;
+    animation: cambio 15s infinite;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: 0;
+    }
+    25% {
+        margin-left: -100%;
+    }
+    45% {
+        margin-left: -100%;
+    }
+    50% {
+        margin-left: -200%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+}
+
+.texto{
+    text-align: center;
+}
+.nombre{
+    text-align: center;
+}
+.page-footer{
+    background-color: #213DEE;
+}
+
+.talla-selector {
+    display: none;
+}
+.talla-selector.active {
+    display: block;
+}
+
+
+
